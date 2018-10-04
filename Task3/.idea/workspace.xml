@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5aff789-6e36-4dab-ac89-faf968cb3dd2" name="Default Changelist" comment="" />
+    <list default="true" id="4923625c-9512-40c9-bffa-081cc65c726a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,32 +12,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1453886131">
+    <session id="-1650399635">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="434" />
+          <entry key="java" value="837" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="434" />
+          <entry key="JAVA" value="837" />
         </counts>
       </usages-collector>
     </session>
@@ -46,10 +48,10 @@
         <entry file="file://$PROJECT_DIR$/src/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
               <folding>
-                <element signature="e#94#95#0" expanded="true" />
-                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#112#113#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,31 +103,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Task2" type="462c0819:PsiDirectoryNode" />
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Task2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Task2" type="462c0819:PsiDirectoryNode" />
+              <item name="Task3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538670467403" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538670829594" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -142,18 +144,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MainClassTest">
     <configuration name="MainClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Task2" />
+      <module name="Task3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainClassTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainClassTest.testGetClassString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainClassTest" />
+      <option name="METHOD_NAME" value="testGetClassString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MainClassTest" />
+      <item itemvalue="JUnit.MainClassTest.testGetClassString" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MainClassTest" />
+        <item itemvalue="JUnit.MainClassTest.testGetClassString" />
       </list>
     </recent_temporary>
   </component>
@@ -162,55 +179,56 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b5aff789-6e36-4dab-ac89-faf968cb3dd2" name="Default Changelist" comment="" />
-      <created>1538664939331</created>
+      <changelist id="4923625c-9512-40c9-bffa-081cc65c726a" name="Default Changelist" comment="" />
+      <created>1538667726690</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1538664939331</updated>
+      <updated>1538667726690</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainClassTest - 2018.10.04 at 18h 27m 50s.xml">
+    <history-entry file="MainClassTest_testGetClassString - 2018.10.04 at 19h 30m 41s.xml">
+      <configuration name="MainClassTest.testGetClassString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainClassTest_testGetClassString - 2018.10.04 at 19h 31m 21s.xml">
+      <configuration name="MainClassTest.testGetClassString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainClassTest - 2018.10.04 at 19h 31m 45s.xml">
       <configuration name="MainClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainClassTest - 2018.10.04 at 18h 29m 21s.xml">
+    <history-entry file="MainClassTest - 2018.10.04 at 19h 31m 55s.xml">
       <configuration name="MainClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainClassTest - 2018.10.04 at 18h 29m 37s.xml">
+    <history-entry file="MainClassTest - 2018.10.04 at 19h 32m 30s.xml">
       <configuration name="MainClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainClassTest - 2018.10.04 at 18h 30m 11s.xml">
+    <history-entry file="MainClassTest - 2018.10.04 at 19h 32m 47s.xml">
       <configuration name="MainClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainClassTest - 2018.10.04 at 18h 30m 45s.xml">
+    <history-entry file="MainClassTest - 2018.10.04 at 19h 32m 52s.xml">
       <configuration name="MainClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainClassTest - 2018.10.04 at 18h 30m 58s.xml">
+    <history-entry file="MainClassTest - 2018.10.04 at 19h 33m 15s.xml">
       <configuration name="MainClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainClassTest - 2018.10.04 at 18h 31m 25s.xml">
+    <history-entry file="MainClassTest - 2018.10.04 at 19h 33m 37s.xml">
       <configuration name="MainClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainClassTest - 2018.10.04 at 18h 31m 36s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainClassTest - 2018.10.04 at 18h 31m 59s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainClassTest - 2018.10.04 at 18h 33m 26s.xml">
+    <history-entry file="MainClassTest - 2018.10.04 at 19h 33m 52s.xml">
       <configuration name="MainClassTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="23" width="1621" height="1030" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24952501" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24952501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
@@ -219,7 +237,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32942432" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -240,18 +258,18 @@
     <entry file="file://$PROJECT_DIR$/src/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
           <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -310,7 +328,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Task2</last-edited>
+          <last-edited>Task3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
