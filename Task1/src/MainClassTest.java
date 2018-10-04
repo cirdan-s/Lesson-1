@@ -8,8 +8,8 @@ import org.junit.Test;
     @Test
     public void testGetLocalNumber()
         {
-            int a = super.getLocalNumber();
-            Assert.assertTrue("Local number is set incorrectly",a  == 14);
+            int localNumber = super.getLocalNumber();
+            Assert.assertTrue("Local number is set incorrectly and is equal to " + localNumber,localNumber  == 14);
         }
 
 }
