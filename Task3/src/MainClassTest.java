@@ -11,8 +11,8 @@ public class MainClassTest extends MainClass {
         String elloSample = "ello";
 
         if (firstSymbol == 'h' | firstSymbol == 'H') {
-        Assert.assertEquals(elloTest, elloSample, "main: Seems that your string does not start from \"hello\" or \"Hello\"!"); }
-        else { Assert.fail("else: Seems that your string does not start from \"hello\" or \"Hello\"!"); }
+        Assert.assertEquals(elloTest, elloSample, "Seems that your string does not start from \"hello\" or \"Hello\"!"); }
+        else { Assert.fail("Seems that your string does not start from \"hello\" or \"Hello\"!"); }
 
         System.out.println("================================");
         System.out.println("The test has ended successfully!");
