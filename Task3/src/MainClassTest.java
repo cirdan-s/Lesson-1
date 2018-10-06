@@ -1,5 +1,5 @@
-import com.sun.tools.javac.util.Assert;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 public class MainClassTest extends MainClass {
 
@@ -7,27 +7,15 @@ public class MainClassTest extends MainClass {
     public void testGetClassString() {
         String gotString = super.getClassString();
         char firstSymbol = gotString.charAt(0);
-        boolean result = false;
+        String elloTest = gotString.substring(1, 5);
+        String elloSample = "ello";
 
-        //System.out.println(firstSymbol);
+        if (firstSymbol == 'h' | firstSymbol == 'H') {
+        Assert.assertEquals(elloTest, elloSample, "main: Seems that your string does not start from \"hello\" or \"Hello\"!"); }
+        else { Assert.fail("else: Seems that your string does not start from \"hello\" or \"Hello\"!"); }
 
-        if (firstSymbol == ('H')) {
-            if (gotString.contains("ello")) {
-                System.out.println("Your string starts from \"hello\" or \"Hello\": " + gotString);
-                result = true;
-            }
-        }
-        if (firstSymbol == ('h')) {
-            if (gotString.contains("ello")) {
-                System.out.println("Your string starts from \"hello\" or \"Hello\": " + gotString);
-                result = true;
-            }
-        }
-        if (result == false) {
-            Assert.error("Seems that your string does not start from \"hello\" or \"Hello\": " + gotString);
-        }
+        System.out.println("================================");
+        System.out.println("The test has ended successfully!");
 
-        System.out.println("==================");
-        System.out.println("The test has ended");
     }
 }

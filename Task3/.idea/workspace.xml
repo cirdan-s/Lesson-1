@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4923625c-9512-40c9-bffa-081cc65c726a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Task3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestClass.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +19,10 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="216" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1650399635">
@@ -49,35 +55,41 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1147319163">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="401" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="401" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="17">
               <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="32" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TestClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="204">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,18 +107,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MainClassTest.java" />
         <option value="$PROJECT_DIR$/src/TestClass.java" />
         <option value="$PROJECT_DIR$/src/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/MainClassTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="62" />
     <option name="y" value="23" />
     <option name="width" value="1621" />
@@ -120,7 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,17 +150,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538731058883" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538823071509" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -161,43 +176,75 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainClassTest">
-    <configuration name="MainClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.MainClassTest">
+    <configuration name="MainClassTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Task3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainClassTest" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassTest.testGetClassString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainClassTest.testGetClassString" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Task3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainClassTest" />
       <option name="METHOD_NAME" value="testGetClassString" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTestClass" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Task3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTestClass" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Task3" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass.testGetClassString" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Task3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="testGetClassString" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MainClassTest" />
-      <item itemvalue="JUnit.MainClassTest.testGetClassString" />
-      <item itemvalue="JUnit.TestClass" />
+      <item itemvalue="TestNG.TestClass" />
+      <item itemvalue="TestNG.TestClass.testGetClassString" />
+      <item itemvalue="TestNG.MainTestClass" />
+      <item itemvalue="TestNG.MainClassTest" />
+      <item itemvalue="TestNG.MainClassTest.testGetClassString" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainClassTest" />
-        <item itemvalue="JUnit.TestClass" />
-        <item itemvalue="JUnit.MainClassTest.testGetClassString" />
+        <item itemvalue="TestNG.MainClassTest" />
+        <item itemvalue="TestNG.MainClassTest.testGetClassString" />
+        <item itemvalue="TestNG.MainTestClass" />
+        <item itemvalue="TestNG.TestClass.testGetClassString" />
+        <item itemvalue="TestNG.TestClass" />
       </list>
     </recent_temporary>
   </component>
@@ -215,42 +262,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainClassTest - 2018.10.05 at 12h 07m 34s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
+    <history-entry file="MainClassTest - 2018.10.06 at 13h 31m 22s.xml">
+      <configuration name="MainClassTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainClassTest - 2018.10.05 at 12h 07m 48s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
+    <history-entry file="MainClassTest - 2018.10.06 at 13h 35m 51s.xml">
+      <configuration name="MainClassTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainClassTest - 2018.10.05 at 12h 07m 55s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
+    <history-entry file="MainClassTest - 2018.10.06 at 13h 40m 27s.xml">
+      <configuration name="MainClassTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainClassTest - 2018.10.05 at 12h 08m 16s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
+    <history-entry file="MainClassTest - 2018.10.06 at 13h 40m 46s.xml">
+      <configuration name="MainClassTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainClassTest - 2018.10.05 at 12h 08m 52s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
+    <history-entry file="MainClassTest - 2018.10.06 at 13h 41m 41s.xml">
+      <configuration name="MainClassTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass - 2018.10.05 at 12h 11m 37s.xml">
-      <configuration name="TestClass" configurationId="JUnit" />
+    <history-entry file="MainClassTest - 2018.10.06 at 13h 41m 58s.xml">
+      <configuration name="MainClassTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass - 2018.10.05 at 12h 11m 53s.xml">
-      <configuration name="TestClass" configurationId="JUnit" />
+    <history-entry file="MainClassTest - 2018.10.06 at 13h 42m 29s.xml">
+      <configuration name="MainClassTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass - 2018.10.05 at 12h 12m 42s.xml">
-      <configuration name="TestClass" configurationId="JUnit" />
+    <history-entry file="MainClassTest - 2018.10.06 at 13h 42m 58s.xml">
+      <configuration name="MainClassTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass - 2018.10.05 at 12h 14m 08s.xml">
-      <configuration name="TestClass" configurationId="JUnit" />
+    <history-entry file="MainClassTest - 2018.10.06 at 13h 43m 21s.xml">
+      <configuration name="MainClassTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass - 2018.10.05 at 12h 15m 19s.xml">
-      <configuration name="TestClass" configurationId="JUnit" />
+    <history-entry file="MainClassTest - 2018.10.06 at 13h 44m 24s.xml">
+      <configuration name="MainClassTest" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="23" width="1621" height="1030" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25269157" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21321961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -259,16 +315,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32942432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53755367" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978677" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32942432" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995567" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -277,17 +332,19 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32995567" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MainClassTest.java">
+    <entry file="file://$PROJECT_DIR$/src/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="540">
+          <caret line="36" column="10" selection-end-line="41" />
           <folding>
+            <element signature="e#0#1396#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -295,15 +352,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="17">
           <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestClass.java">
+    <entry file="file://$PROJECT_DIR$/src/MainClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="204">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
