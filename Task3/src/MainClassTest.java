@@ -4,11 +4,19 @@ import org.testng.annotations.Test;
 public class MainClassTest extends MainClass {
 
     @Test
-    public void testGetClassString() {
+    public void testGetClassString() throws StringIndexOutOfBoundsException {
         String gotString = super.getClassString();
-        char firstSymbol = gotString.charAt(0);
-        String elloTest = gotString.substring(1, 5);
+        String elloTest = "";
         String elloSample = "ello";
+        char firstSymbol = 'h';
+
+        try {
+            firstSymbol = gotString.charAt(0);
+            elloTest = gotString.substring(1, 5);
+        }
+        catch (StringIndexOutOfBoundsException e) {
+            Assert.fail("Seems that your string is NULL");
+        }
 
         if (firstSymbol == 'h' | firstSymbol == 'H') {
         Assert.assertEquals(elloTest, elloSample, "Seems that your string does not start from \"hello\" or \"Hello\"!"); }
