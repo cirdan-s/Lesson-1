@@ -1,5 +1,5 @@
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class MainClassTest extends MainClass {
 
@@ -18,8 +18,11 @@ public class MainClassTest extends MainClass {
             Assert.fail("Seems that your string is NULL");
         }
 
+        System.out.println("First symbol is: " + firstSymbol);
+
         if (firstSymbol == 'h' | firstSymbol == 'H') {
-        Assert.assertEquals(elloTest, elloSample, "Seems that your string does not start from \"hello\" or \"Hello\"!"); }
+            Assert.assertEquals("Seems that your string does not start from \"hello\" or \"Hello\"!", elloTest, elloSample); }
+            //Assert.assertEquals(elloTest, elloSample, "Seems that your string does not start from \"hello\" or \"Hello\"!"); }
         else { Assert.fail("Seems that your string does not start from \"hello\" or \"Hello\"!"); }
 
         System.out.println("================================");
