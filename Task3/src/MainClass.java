@@ -1,7 +1,7 @@
 public class MainClass {
-    private String class_string = "Hello, world";
+    private String classString = "Hello, world!";
 
     public String getClassString() {
-        return class_string;
+        return classString;
     }
 }
